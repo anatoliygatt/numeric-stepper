@@ -42,7 +42,9 @@
     "semantic-release": "semantic-release",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "config": {
     "commitizen": {
@@ -50,11 +52,18 @@
     }
   },
   "devDependencies": {
+    "@babel/core": "^7.17.8",
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-conventional": "^16.2.1",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/exec": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@storybook/addon-a11y": "^6.5.0-alpha.55",
+    "@storybook/addon-actions": "^6.5.0-alpha.55",
+    "@storybook/addon-essentials": "^6.5.0-alpha.55",
+    "@storybook/builder-webpack5": "^6.5.0-alpha.55",
+    "@storybook/manager-webpack5": "^6.5.0-alpha.55",
+    "@storybook/react": "^6.5.0-alpha.55",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^14.0.4",
@@ -64,6 +73,7 @@
     "@types/react-dom": "^17.0.14",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@typescript-eslint/parser": "^5.18.0",
+    "babel-loader": "^8.2.4",
     "commitizen": "^4.2.4",
     "conventional-changelog-conventionalcommits": "^4.6.3",
     "esbuild": "^0.14.31",
@@ -76,6 +86,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0",
+    "eslint-plugin-storybook": "^0.5.7",
     "eslint-plugin-testing-library": "^5.2.1",
     "husky": "^7.0.4",
     "is-ci": "^3.0.1",
@@ -90,7 +101,8 @@
     "sort-package-json": "^1.55.0",
     "ts-jest": "^27.1.4",
     "ts-node": "^10.7.0",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "webpack": "^5.71.0"
   },
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
