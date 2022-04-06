@@ -1,0 +1,738 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumericStepper renders with the custom props 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  width: 370px;
+  height: 148px;
+  padding: 14px 34px;
+  background-color: #fed7aa;
+}
+
+.emotion-0>div {
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0>div>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color: #ea580c;
+}
+
+.emotion-0>div>div>svg {
+  width: 60px;
+  height: 60px;
+}
+
+.emotion-0>div>button {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0 solid #fff7ed;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-0>div>button:focus {
+  border-width: 2px;
+}
+
+.emotion-0>div>button:focus:not(:focus-visible) {
+  border-width: 0;
+}
+
+.emotion-0>div>button:focus-visible {
+  border-width: 2px;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1) {
+  -webkit-transition: border-width 50ms,color 150ms,background-color 150ms;
+  transition: border-width 50ms,color 150ms,background-color 150ms;
+  width: 68px;
+  height: 68px;
+  margin: 10px;
+  background-color: transparent;
+  color: #fb923c;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)>svg {
+  width: 60px;
+  height: 60px;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='false']:hover {
+  background-color: transparent;
+  color: #ea580c!important;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='false']:active {
+  background-color: #ffedd5;
+  color: #9a3412!important;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='true'] {
+  cursor: default;
+  color: #fdba74!important;
+}
+
+.emotion-0>div>button:nth-of-type(2) {
+  z-index: 1;
+  -webkit-transition: box-shadow 150ms;
+  transition: box-shadow 150ms;
+  margin: 0 4px;
+  box-shadow: 0 10px 10px -4px rgb(0 0 0 / 0.1),0 3px 4px -2px rgb(0 0 0 / 0.5);
+  width: 120px;
+  height: 120px;
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+.emotion-0>div>button:nth-of-type(2)>div {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 92px;
+}
+
+.emotion-0>div>button:nth-of-type(2):active {
+  box-shadow: 0 10px 10px -4px rgb(0 0 0 / 0.1),0 3px 4px -2px rgb(0 0 0 / 0.5);
+}
+
+<div
+  class="emotion-0"
+  data-projection-id="16"
+  data-testid="numeric-stepper"
+  style="background-color: rgb(254, 215, 170); transform: none;"
+>
+  <div>
+    <button
+      aria-disabled="false"
+      data-projection-id="17"
+      data-testid="numeric-stepper-decrement-button"
+      style="opacity: 1; color: rgb(251, 146, 60);"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20 12H4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </button>
+    <div
+      aria-hidden="true"
+      data-projection-id="18"
+      style="opacity: 0;"
+    >
+      <svg
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 18L18 6M6 6l12 12"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </div>
+    <button
+      aria-live="polite"
+      data-projection-id="19"
+      data-testid="numeric-stepper-thumb"
+      draggable="false"
+      style="transform: none; user-select: none;"
+      type="button"
+    >
+      <div>
+        20
+      </div>
+    </button>
+    <button
+      aria-disabled="false"
+      data-projection-id="20"
+      data-testid="numeric-stepper-increment-button"
+      style="opacity: 1; color: rgb(251, 146, 60);"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 4v16m8-8H4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`NumericStepper renders with the default props 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  width: 185px;
+  height: 74px;
+  padding: 7px 17px;
+  background-color: #2b2b2b;
+}
+
+.emotion-0:hover>div>button:nth-of-type(2) {
+  box-shadow: 0 20px 25px 28px rgb(0 0 0 / 0.1),0 1.5px 2px -1px rgb(0 0 0 / 0.5);
+}
+
+.emotion-0>div {
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0>div>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
+}
+
+.emotion-0>div>div>svg {
+  width: 30px;
+  height: 30px;
+}
+
+.emotion-0>div>button {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0 solid #ececec;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-0>div>button:focus {
+  border-width: 1px;
+}
+
+.emotion-0>div>button:focus:not(:focus-visible) {
+  border-width: 0;
+}
+
+.emotion-0>div>button:focus-visible {
+  border-width: 1px;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1) {
+  -webkit-transition: border-width 50ms,color 150ms,background-color 150ms;
+  transition: border-width 50ms,color 150ms,background-color 150ms;
+  width: 34px;
+  height: 34px;
+  margin: 5px;
+  background-color: transparent;
+  color: #858585;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)>svg {
+  width: 30px;
+  height: 30px;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='false']:hover {
+  background-color: transparent;
+  color: #ffffff!important;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='false']:active {
+  background-color: #ececec;
+  color: #000000!important;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='true'] {
+  cursor: default;
+  color: #383838!important;
+}
+
+.emotion-0>div>button:nth-of-type(2) {
+  z-index: 1;
+  -webkit-transition: box-shadow 150ms;
+  transition: box-shadow 150ms;
+  margin: 0 2px;
+  box-shadow: 0 5px 5px -2px rgb(0 0 0 / 0.1),0 1.5px 2px -1px rgb(0 0 0 / 0.5);
+  width: 60px;
+  height: 60px;
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.emotion-0>div>button:nth-of-type(2)>div {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 46px;
+}
+
+.emotion-0>div>button:nth-of-type(2):active {
+  box-shadow: 0 5px 5px -2px rgb(0 0 0 / 0.1),0 1.5px 2px -1px rgb(0 0 0 / 0.5);
+}
+
+<div
+  class="emotion-0"
+  data-projection-id="6"
+  data-testid="numeric-stepper"
+  style="background-color: rgb(43, 43, 43); transform: none;"
+>
+  <div>
+    <button
+      aria-disabled="true"
+      data-projection-id="7"
+      data-testid="numeric-stepper-decrement-button"
+      style="opacity: 1; color: rgb(133, 133, 133);"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20 12H4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </button>
+    <div
+      aria-hidden="true"
+      data-projection-id="8"
+      style="opacity: 0;"
+    >
+      <svg
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 18L18 6M6 6l12 12"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </div>
+    <button
+      aria-live="polite"
+      data-projection-id="9"
+      data-testid="numeric-stepper-thumb"
+      draggable="false"
+      style="transform: none; user-select: none;"
+      type="button"
+    >
+      <div>
+        0
+      </div>
+    </button>
+    <button
+      aria-disabled="false"
+      data-projection-id="10"
+      data-testid="numeric-stepper-increment-button"
+      style="opacity: 1; color: rgb(133, 133, 133);"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 4v16m8-8H4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`NumericStepper renders with the default props and size="md" 1`] = `
+.emotion-0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 9999px;
+  box-sizing: border-box;
+  width: 277.5px;
+  height: 111px;
+  padding: 10.5px 25.5px;
+  background-color: #2b2b2b;
+}
+
+.emotion-0:hover>div>button:nth-of-type(2) {
+  box-shadow: 0 30px 37.5px 42px rgb(0 0 0 / 0.1),0 2.25px 3px -1.5px rgb(0 0 0 / 0.5);
+}
+
+.emotion-0>div {
+  position: relative;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0>div>div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
+}
+
+.emotion-0>div>div>svg {
+  width: 45px;
+  height: 45px;
+}
+
+.emotion-0>div>button {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border: 0 solid #ececec;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.emotion-0>div>button:focus {
+  border-width: 1.5px;
+}
+
+.emotion-0>div>button:focus:not(:focus-visible) {
+  border-width: 0;
+}
+
+.emotion-0>div>button:focus-visible {
+  border-width: 1.5px;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1) {
+  -webkit-transition: border-width 50ms,color 150ms,background-color 150ms;
+  transition: border-width 50ms,color 150ms,background-color 150ms;
+  width: 51px;
+  height: 51px;
+  margin: 7.5px;
+  background-color: transparent;
+  color: #858585;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)>svg {
+  width: 45px;
+  height: 45px;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='false']:hover {
+  background-color: transparent;
+  color: #ffffff!important;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='false']:active {
+  background-color: #ececec;
+  color: #000000!important;
+}
+
+.emotion-0>div>button:nth-of-type(2n + 1)[aria-disabled='true'] {
+  cursor: default;
+  color: #383838!important;
+}
+
+.emotion-0>div>button:nth-of-type(2) {
+  z-index: 1;
+  -webkit-transition: box-shadow 150ms;
+  transition: box-shadow 150ms;
+  margin: 0 3px;
+  box-shadow: 0 7.5px 7.5px -3px rgb(0 0 0 / 0.1),0 2.25px 3px -1.5px rgb(0 0 0 / 0.5);
+  width: 90px;
+  height: 90px;
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.emotion-0>div>button:nth-of-type(2)>div {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 69px;
+}
+
+.emotion-0>div>button:nth-of-type(2):active {
+  box-shadow: 0 7.5px 7.5px -3px rgb(0 0 0 / 0.1),0 2.25px 3px -1.5px rgb(0 0 0 / 0.5);
+}
+
+<div
+  class="emotion-0"
+  data-projection-id="11"
+  data-testid="numeric-stepper"
+  style="background-color: rgb(43, 43, 43); transform: none;"
+>
+  <div>
+    <button
+      aria-disabled="true"
+      data-projection-id="12"
+      data-testid="numeric-stepper-decrement-button"
+      style="opacity: 1; color: rgb(133, 133, 133);"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20 12H4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </button>
+    <div
+      aria-hidden="true"
+      data-projection-id="13"
+      style="opacity: 0;"
+    >
+      <svg
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 18L18 6M6 6l12 12"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </div>
+    <button
+      aria-live="polite"
+      data-projection-id="14"
+      data-testid="numeric-stepper-thumb"
+      draggable="false"
+      style="transform: none; user-select: none;"
+      type="button"
+    >
+      <div>
+        0
+      </div>
+    </button>
+    <button
+      aria-disabled="false"
+      data-projection-id="15"
+      data-testid="numeric-stepper-increment-button"
+      style="opacity: 1; color: rgb(133, 133, 133);"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12 4v16m8-8H4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="1"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
