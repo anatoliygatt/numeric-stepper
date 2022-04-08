@@ -78,7 +78,7 @@
     "@types/jest": "^27.4.1",
     "@types/jest-axe": "^3.5.3",
     "@types/node": "^17.0.23",
-    "@types/react": "^17.0.43",
+    "@types/react": "^18.0.0",
     "@types/react-dom": "^17.0.14",
     "@types/textfit": "^2.4.2",
     "@typescript-eslint/eslint-plugin": "^5.18.0",
