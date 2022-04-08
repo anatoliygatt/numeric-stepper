@@ -60,7 +60,7 @@ function Example() {
       activeTrackColor="#fddec0"
       activeButtonColor="#ffedd5"
       inactiveIconColor="#fb923c"
-      hoveredIconColor="#ea580c"
+      hoverIconColor="#ea580c"
       activeIconColor="#9a3412"
       disabledIconColor="#fdba74"
       thumbColor="#f97316"
