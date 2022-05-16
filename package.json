@@ -57,7 +57,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
-    "@commitlint/cli": "^16.2.3",
+    "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^16.2.1",
     "@emotion/jest": "^11.9.0",
     "@emotion/react": "^11.9.0",
