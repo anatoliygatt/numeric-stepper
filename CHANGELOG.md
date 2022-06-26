@@ -1,3 +1,9 @@
+### [1.0.2](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.1...v1.0.2) (2022-06-26)
+
+### Bug Fixes
+
+- **deps:** bump semver-regex from 3.1.3 to 3.1.4 ([cc0bd77](https://github.com/anatoliygatt/numeric-stepper/commit/cc0bd77731730f381560d8c29d15046250d42b86))
+
 ### [1.0.1](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.0...v1.0.1) (2022-04-08)
 
 ### Bug Fixes
