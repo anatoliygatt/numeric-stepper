@@ -119,7 +119,7 @@
   "peerDependencies": {
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
-    "framer-motion": "^5.0.0 || ^6.0.0",
+    "framer-motion": "^5.0.0 || ^6.0.0 || ^7.0.0",
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "publishConfig": {
