@@ -1,3 +1,9 @@
+## [1.0.4](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.3...v1.0.4) (2022-08-24)
+
+### Bug Fixes
+
+- **deps-peer:** allow usage of framer-motion@^7.0.0 ([8035d02](https://github.com/anatoliygatt/numeric-stepper/commit/8035d025cb8efdde4722456293a2cb957f52e000))
+
 ### [1.0.3](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.2...v1.0.3) (2022-08-24)
 
 ### Bug Fixes
