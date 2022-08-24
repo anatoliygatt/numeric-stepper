@@ -1,3 +1,9 @@
+### [1.0.3](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.2...v1.0.3) (2022-08-24)
+
+### Bug Fixes
+
+- **deps:** bump npm from 8.6.0 to 8.15.1 ([28723ec](https://github.com/anatoliygatt/numeric-stepper/commit/28723ec88ea3996e26c1940485f41c7788fc35a5))
+
 ### [1.0.2](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.1...v1.0.2) (2022-06-26)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "name": "@anatoliygatt/numeric-stepper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A numeric stepper component for React.",
   "keywords": [
     "react",
