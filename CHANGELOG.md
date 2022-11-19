@@ -1,3 +1,9 @@
+## [1.0.5](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.4...v1.0.5) (2022-11-19)
+
+### Bug Fixes
+
+- **deps:** bump loader-utils from 1.4.0 to 1.4.2 ([0cfd58c](https://github.com/anatoliygatt/numeric-stepper/commit/0cfd58c4d206b056dc89f8ac816b90ec7ec106c7))
+
 ## [1.0.4](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.3...v1.0.4) (2022-08-24)
 
 ### Bug Fixes
