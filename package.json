@@ -98,7 +98,7 @@
     "eslint-plugin-react-hooks": "^4.4.0",
     "eslint-plugin-storybook": "^0.6.4",
     "eslint-plugin-testing-library": "^5.2.1",
-    "framer-motion": "^6.2.9",
+    "framer-motion": "^7.7.2",
     "husky": "^8.0.1",
     "is-ci": "^3.0.1",
     "jest": "^27.5.1",
