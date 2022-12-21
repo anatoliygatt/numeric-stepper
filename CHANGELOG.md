@@ -1,3 +1,9 @@
+## [1.0.6](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.5...v1.0.6) (2022-12-21)
+
+### Bug Fixes
+
+- **deps:** bump decode-uri-component from 0.2.0 to 0.2.2 ([a8d48fc](https://github.com/anatoliygatt/numeric-stepper/commit/a8d48fc160cc81aad4d08617ed1b3a327d8e1e5f))
+
 ## [1.0.5](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.4...v1.0.5) (2022-11-19)
 
 ### Bug Fixes
