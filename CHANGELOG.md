@@ -1,3 +1,9 @@
+## [1.0.7](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.6...v1.0.7) (2022-12-25)
+
+### Bug Fixes
+
+- **README:** update github ci workflow status badge url ([e57dbb8](https://github.com/anatoliygatt/numeric-stepper/commit/e57dbb82801ba8e5b1e9079b3039a7031e7ab9c2))
+
 ## [1.0.6](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.5...v1.0.6) (2022-12-21)
 
 ### Bug Fixes
