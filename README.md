@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://github.com/anatoliygatt/numeric-stepper/actions?query=workflow%3ACI">
-    <img src="https://img.shields.io/github/workflow/status/anatoliygatt/numeric-stepper/CI/master?style=for-the-badge&logo=github&label=CI&labelColor=000000" alt="GitHub CI Workflow Status">
+    <img src="https://img.shields.io/github/actions/workflow/status/anatoliygatt/numeric-stepper/ci.yml?branch=master&style=for-the-badge&logo=github&label=CI&labelColor=000000" alt="GitHub CI Workflow Status">
   </a>
   <a href="https://www.npmjs.com/package/@anatoliygatt/numeric-stepper">
     <img src="https://img.shields.io/npm/v/@anatoliygatt/numeric-stepper.svg?style=for-the-badge&logo=npm&labelColor=000000" alt="NPM Version">
