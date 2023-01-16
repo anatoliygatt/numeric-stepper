@@ -1,3 +1,9 @@
+## [1.0.8](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.7...v1.0.8) (2023-01-16)
+
+### Bug Fixes
+
+- **deps:** bump json5 from 1.0.1 to 1.0.2 ([a4a5821](https://github.com/anatoliygatt/numeric-stepper/commit/a4a58212cccbf67b64bf01cc135e18c7e6b44431))
+
 ## [1.0.7](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.6...v1.0.7) (2022-12-25)
 
 ### Bug Fixes
