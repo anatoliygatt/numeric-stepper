@@ -1,3 +1,9 @@
+## [1.0.9](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.8...v1.0.9) (2023-03-10)
+
+### Bug Fixes
+
+- **deps:** bump minimist from 1.2.5 to 1.2.7 ([337a648](https://github.com/anatoliygatt/numeric-stepper/commit/337a6489fb4639c9d878f5440225d376276ea199))
+
 ## [1.0.8](https://github.com/anatoliygatt/numeric-stepper/compare/v1.0.7...v1.0.8) (2023-01-16)
 
 ### Bug Fixes
