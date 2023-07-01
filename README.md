@@ -54,7 +54,7 @@ function Example() {
       minimumValue={10}
       maximumValue={100}
       stepValue={10}
-      initialValue={INITIAL_VALUE}
+      value={INITIAL_VALUE}
       size="lg"
       inactiveTrackColor="#fed7aa"
       activeTrackColor="#fddec0"
@@ -87,8 +87,8 @@ function Example() {
 | minimumValue                                | number   | `0`                       | The minimum value.                                                                                                                                 |
 | maximumValue                                | number   | `Number.MAX_SAFE_INTEGER` | The maximum value.                                                                                                                                 |
 | stepValue                                   | number   | `1`                       | The step increment value.                                                                                                                          |
-| initialValue                                | number   | `minimumValue`            | The initial value.                                                                                                                                 |
-| onChange                                    | Function | `undefined`               | The callback invoked when the value changes.                                                                                                       |
+| value                                | number   |             | The initial value.                                                                                                                                 |
+| onChange                                    | Function |                | The callback invoked when the value changes.                                                                                                       |
 | size                                        | string   | `sm`                      | The size of the numeric stepper. There are 3 available sizes:<ul><li>`sm` — 185x74px</li><li>`md` — 277.5x111px</li><li>`lg` — 370x148px</li></ul> |
 | inactiveTrackColor                          | string   | `#2b2b2b`                 | The color of the track while the thumb is not being horizontally dragged.                                                                          |
 | activeTrackColor                            | string   | `#1f1f1f`                 | The color of the track while the thumb is being horizontally dragged and is at the maximum trackable distance from the track's center.             |
@@ -135,6 +135,7 @@ function EnhancedThumbAccessibilityExample() {
   const [value, setValue] = useState(0);
   return (
     <NumericStepper
+      value={value}
       thumbAriaLabel={`${value} items`}
       onChange={(value) => {
         setValue(value);

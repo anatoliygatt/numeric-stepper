@@ -44,15 +44,15 @@ export interface Props extends StyledProps, AccessibilityProps {
   minimumValue?: number;
   maximumValue?: number;
   stepValue?: number;
-  initialValue?: number;
-  onChange?: (value: number) => void;
+  value: number;
+  onChange: (value: number) => void;
 }
 
 export function NumericStepper({
   minimumValue = 0,
   maximumValue = Number.MAX_SAFE_INTEGER,
   stepValue = 1,
-  initialValue = minimumValue,
+  value,
   onChange,
   size = 'sm',
   inactiveTrackColor = '#2b2b2b',
@@ -71,7 +71,6 @@ export function NumericStepper({
   thumbAriaLabel,
   incrementButtonAriaLabel,
 }: Props) {
-  const [value, setValue] = React.useState<number>(initialValue);
   const [dragListener, setDragListener] = React.useState<boolean>(true);
   const [dragDirection, setDragDirection] = React.useState<DragDirection>();
   const [isDragging, setIsDragging] = React.useState<boolean>(false);
@@ -135,18 +134,18 @@ export function NumericStepper({
 
   function decrementValue(): void {
     if (isDecrementable) {
-      setValue((value) => value - stepValue);
+      onChange(value - stepValue);
     }
   }
 
   function incrementValue(): void {
     if (isIncrementable) {
-      setValue((value) => value + stepValue);
+      onChange(value + stepValue);
     }
   }
 
   function resetValue(): void {
-    setValue(minimumValue);
+    onChange(minimumValue);
   }
 
   function onDirectionLock(axis: DragDirection): void {

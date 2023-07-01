@@ -1,6 +1,5 @@
 import * as React from 'react';
 import type { ComponentMeta, ComponentStory } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
 import { NumericStepper } from '../NumericStepper';
 
 export default {
@@ -17,17 +16,19 @@ export default {
   },
 } as ComponentMeta<typeof NumericStepper>;
 
-const Template: ComponentStory<typeof NumericStepper> = (args) => (
-  <NumericStepper {...args} />
-);
+const Template: ComponentStory<typeof NumericStepper> = (args) => {
+  const [value, setValue] = React.useState(0);
+  const onChange = (val: number) => {
+    setValue(val);
+  };
+  return <NumericStepper {...args} value={value} onChange={onChange} />;
+};
 
 export const Playground = Template.bind({});
 Playground.args = {
   minimumValue: 0,
   maximumValue: Number.MAX_SAFE_INTEGER,
   stepValue: 1,
-  initialValue: 0,
-  onChange: action('onChange'),
   size: 'lg',
   inactiveTrackColor: '#2b2b2b',
   activeTrackColor: '#1f1f1f',
@@ -58,7 +59,6 @@ Customized.args = {
   minimumValue: 10,
   maximumValue: 100,
   stepValue: 10,
-  initialValue: 20,
   size: 'lg',
   inactiveTrackColor: '#fed7aa',
   activeTrackColor: '#fddec0',
